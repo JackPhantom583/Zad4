@@ -1,0 +1,391 @@
+/* Стили для объединенной секции header и masthead */
+body {
+  margin: 0; /* Убрать внешние отступы */
+  padding: 0; /* Убрать внутренние отступы */
+}
+.header-masthead {
+    background-image: url('backlayer.png'); /* Путь к вашему фоновому изображению */
+    background-size: cover; /* Растягивание изображения на весь блок */
+    /* Другие свойства фона, если необходимо */
+  }
+  
+  /* Стили для header */
+  .header {
+    display: flex; /* Используем flex-контейнер */
+    width: 70%; /* Задаем желаемую ширину секции */
+    padding-top: 30px;
+    margin: 0 auto 0; /* Автоматическое выравнивание по горизонтали */
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 189px;
+    height: 24px; /* Отступ справа от логотипа */
+    float: left;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  ul li {
+    margin-left: 80px; /* Смещаем меню вправо */
+    font-family: 'Raleway', Bold; /* Использование шрифта Raleway */
+    font-size: 13px; /* Размер шрифта 13 пикселей */
+    color: #d3d1d1; /* Белый цвет текста */
+  }
+  
+  
+  /* Стили для секции masthead */
+  .masthead {
+    text-align: center; /* Центрирование содержимого */
+    padding: 150px; /* Подстройка отступов */
+    /* Другие стили для содержимого masthead */
+  }
+  .masthead-text-large {
+    color: #fff; /* Белый цвет текста */
+    font-family: 'Open Sans', Bold;
+    font-size: 65px;
+    margin-top: 100px;
+    line-height: 0.1;
+  }
+  .masthead-text-small {
+    color: #ccc9c9; /* Белый цвет текста */
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    margin-bottom: 100px;
+    line-height: 0.5;
+  }
+  .masthead-button {
+    background-color: #ff4444; /* Красный цвет кнопки */
+    width: 200px; /* Новая ширина кнопки */
+    height: 50px;
+    color: #fff; /* Белый цвет текста кнопки */
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+  .features {
+    display: flex; /* Используем flex-контейнер */
+    width: 70%; /* Задаем желаемую ширину секции */
+    margin: 0 auto; /* Автоматическое выравнивание по горизонтали */
+    justify-content: center; /* Выравниваем содержимое по центру */
+    flex-direction: column; /* Расположение элементов в столбец */
+    margin-top: 120px;
+  }
+  
+  .feature-row {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px; /* Вертикальный отступ между рядами */
+  }
+  
+  .feature {
+    text-align: center;
+    margin: 10px;
+    flex: 0 0 calc(33.33% - 120px);
+  }
+  
+  .feature img {
+    margin: 10px;
+    /* Дополнительные стили для иконки, если нужно */
+  }
+  
+  .feature-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase; /* Верхний регистр для заголовка */
+    color: #000; /* Черный цвет текста */
+    margin-bottom: 25px; /* Отступ между заголовком и описанием */
+  }
+  
+  .feature-description {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: #888; /* Серый цвет текста */
+  }
+
+  .works {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0; /* Убираем внешние отступы */
+    line-height: 0;
+    font-size: 0;
+    width: 100%;
+    margin-top: 80px;
+  }
+  
+  .work-item {
+    position: relative;
+    width: calc(25%); /* Ширина элемента с изображением */
+    margin: 0; /* Убираем внешние отступы */
+  }
+  
+  .work-item img {
+    width: 100%; /* Ширина изображения */
+    height: 350px; /* Высота изображения */
+
+  }
+  
+  .text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+  }
+
+  .project-name {
+    font-family: 'Raleway', Bold;
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+  
+  .design-type {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+  }
+  
+  .team {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 80px;
+  }
+  
+  .team-member {
+    width: 270px;
+    margin: 20px;
+    text-align: left;
+  }
+  
+  .team-member img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .member-info h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    color: #000;
+    margin-bottom: 15px;
+  }
+  
+  .member-info h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    color: #ff0000; /* Красный цвет */
+    margin-bottom: 20px;
+  }
+  
+  .member-info p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: #888; /* Серый цвет */
+    margin-bottom: 30px;
+  }
+  
+  .social-icons {
+    display: flex;
+  }
+  
+  .social-icons img {
+    width: 32px;
+    height: 32px;
+    margin-right: 4px;
+  }
+
+  .clients{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+  }
+  
+  .client-images {
+    width: 100%;
+    display: flex;
+  }
+  
+  .client-images img {
+    width: 50%;
+    height: 500px;
+  }
+  
+  .second-image {
+    position: relative;
+    width: 50%;
+  }
+  
+  .second-image img {
+    width: 100%;
+    height: 500px;
+  }
+  
+  .second-image-text {
+    position: absolute;
+    top: 120px;
+    left: 100px;
+    width: 55%;
+    color: #fff;
+  }
+  
+  .second-image-text h2 {
+    font-family: 'Cardo', serif;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: normal;
+    margin: 0;
+    margin-bottom: 25px;
+  }
+  
+  .second-image-text p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 0;
+  }
+
+  .download {
+    text-align: center;
+    padding: 50px 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .text-content {
+    margin-bottom: 40px;
+  }
+  
+  .main-text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    font-weight: 200;
+    color: #2d3033;
+    margin: 0;
+  }
+  
+  .secondary-text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: #2d3033;
+    margin: 0;
+    margin-top: 10px;
+  }
+  
+  .download-button {
+    background-color: #ff4444; /* Красный цвет кнопки */
+    width: 280px; /* Новая ширина кнопки */
+    height: 50px;
+    color: #fff; /* Белый цвет текста кнопки */
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .top-part {
+    width: 100%;
+    height: 255px;
+    background-image: url('background1.png');
+  }
+  
+  .top-part-content{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 45px;
+  }
+
+  .text-block {
+    text-align: center;
+    width: 300px;
+  }
+  
+  .first-part {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .second-part {
+    font-family: 'Raleway', sans-serif;
+    font-size: 11px;
+    color: #ccc;
+  }
+  
+  .footer-social-icons{
+    display: inline-block;
+    margin: 0 10px;
+  }
+
+  .footer-social-icons img{
+    width: 32px;
+    height: 32px;
+    margin-right: 4px;
+  }
+
+  .bottom-part {
+    width: 100%;
+    height: 95px;
+    background-image: url('background2.png');
+  }
+
+  .bottom-part-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  
+  .centered-text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 11px;
+    color: #808080;
+    text-align: center;
+    margin: 5px;
+  }
+  .white-color{
+    color: #ffffff;
+  }
+  
+  .heart {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+    color: #ff4444;
+  }
