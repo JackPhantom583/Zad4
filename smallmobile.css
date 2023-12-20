@@ -1,0 +1,68 @@
+@media (max-width: 580px) {
+    /* ... */
+  
+    .logo {
+        transform: scale(0.5);
+        width: 90px;
+        height: 24px;
+        float: left;
+    }
+
+    ul li {
+        margin-left: 5px;
+        font-size: 9px;
+    }
+
+    .work-item img{
+        height: 210px;
+    }
+
+    .masthead {
+      padding: 100px 20px; /* Изменение отступов в секции masthead */
+    }
+  
+    .masthead-text-large {
+      font-size: 40px; /* Изменение размера текста */
+      margin-top: 50px; /* Изменение отступа сверху */
+    }
+  
+    .masthead-text-small {
+      font-size: 16px; /* Изменение размера текста */
+      margin-bottom: 50px; /* Изменение отступа снизу */
+    }
+  
+    .masthead-button {
+      width: 160px; /* Изменение ширины кнопки */
+      height: 40px; /* Изменение высоты кнопки */
+      font-size: 11px; /* Изменение размера текста кнопки */
+      padding: 8px 16px; /* Изменение внутренних отступов кнопки */
+    }
+
+    .team-member{
+        width: 100%;
+    }
+
+    .client-images img,
+    .second-image{
+        height: 280px; /* Автоматический подбор высоты изображений */
+    }
+
+    .second-image-text h2{
+        font-size: 24px;
+    }
+
+    .top-part {
+        height: 325px;
+    }
+
+    .top-part-content {
+        flex-direction: column;
+        width: auto;
+    }
+
+    .text-block {
+        margin: 0 auto;
+    }
+  
+    /* Дополнительные стили для других секций, при необходимости */
+  }

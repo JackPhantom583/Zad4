@@ -1,0 +1,199 @@
+/* Медиа-запросы для мобильных устройств */
+@media (max-width: 768px) {
+    .header {
+      width: 95%; /* Изменение ширины header */
+    }
+  
+    .logo {
+        transform: scale(0.7);
+        width: 120px;
+        height: 24px;
+        float: left;
+    }
+    
+    ul li {
+      margin-left: 15px; /* Изменение отступов в меню */
+      font-size: 10px;
+    }
+  
+    .masthead {
+      padding: 70px; /* Изменение отступов */
+    }
+  
+    .masthead-text-large {
+      font-size: 30px; /* Изменение размера текста */
+      margin-top: 50px; /* Изменение отступа сверху */
+      line-height: normal;
+    }
+  
+    .masthead-text-small {
+      font-size: 12px; /* Изменение размера текста */
+      margin-bottom: 50px; /* Изменение отступа снизу */
+      line-height: normal;
+    }
+  
+    .masthead-button {
+      width: 160px; /* Изменение ширины кнопки */
+      height: 35px; /* Изменение высоты кнопки */
+      font-size: 11px; /* Изменение размера шрифта */
+      padding: 6px 12px; /* Изменение внутренних отступов */
+    }
+  
+    .features {
+        width: 70%; /* Изменение ширины секции features */
+    }
+    
+    .feature {
+        flex: 0 0 calc(50% - 40px); /* Изменение размеров feature */
+        margin: 10px;
+    }
+
+    .feature-title {
+        font-size: 12px;
+    }
+    
+    .feature-description {
+        font-size: 12px;
+    }
+
+    .works {
+        width: 100%; /* Изменение ширины секции works */
+        margin-top: 60px; /* Изменение отступа сверху */
+    }
+    
+    .work-item {
+        width: 50%; /* Изменение ширины элемента с изображением */
+        margin: 0; /* Убираем внешние отступы */
+    }
+
+    .work-item img {
+        height: 272px; /* Автоматический подбор высоты изображения */
+    }
+
+    .project-name {
+        font-size: 12px; /* Изменение размера текста */
+        margin-bottom: 20px; /* Изменение отступа снизу */
+    }
+
+    .design-type {
+        font-size: 12px; /* Изменение размера текста */
+    }
+
+    .team {
+        width: 100%; /* Изменение ширины секции team */
+        margin-top: 60px; /* Изменение отступа сверху */
+    }
+
+    .team-member {
+        width: 50%;
+        margin: 0; /* Убираем внешние отступы */
+        margin-bottom: 40px; /* Изменение отступа снизу */
+        text-align: center;
+    }
+
+    .team-member img{
+        width: fit-content;
+    }
+
+    .member-info{
+        width: 270px;
+        margin: 0 auto;
+    }
+
+    .member-info h2 {
+        font-size: 18px; /* Изменение размера текста */
+        margin-bottom: 10px; /* Изменение отступа снизу */
+    }
+
+    .member-info h3 {
+        font-size: 12px; /* Изменение размера текста */
+        margin-bottom: 15px; /* Изменение отступа снизу */
+    }
+
+    .member-info p {
+        font-size: 12px; /* Изменение размера текста */
+        margin-bottom: 20px; /* Изменение отступа снизу */
+    }
+
+    .social-icons{
+        display: inline-block;
+        margin: 0 10px;
+    }
+
+    .social-icons img {
+        width: 24px; /* Изменение размера иконок социальных сетей */
+        height: 24px;
+        margin-right: 2px; /* Изменение отступов между иконками */
+    }
+
+    .clients {
+        flex-direction: column; /* Отображение клиентов в колонку */
+        align-items: center; /* Выравнивание по центру */
+    }
+
+    .client-images{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .client-images img,
+    .second-image{
+        width: 100%; /* Растягивание изображений на всю ширину */
+        height: 380px; /* Автоматический подбор высоты изображений */
+    }
+
+    .second-image-text {
+        width: 80%;
+        top: 40px;
+        left: 20px;
+        text-align: left; /* Выравнивание текста по центру */
+    }
+
+    .download {
+        padding: 30px 0; /* Изменение внутренних отступов */
+        margin-top: 30px; /* Изменение отступа сверху */
+        margin-bottom: 30px; /* Изменение отступа снизу */
+    }
+
+    .main-text {
+        font-size: 24px; /* Изменение размера текста */
+    }
+
+    .secondary-text {
+        font-size: 11px; /* Изменение размера текста */
+        margin-top: 15px; /* Изменение отступа сверху */
+    }
+
+    .footer {
+        flex-direction: column; /* Отображение элементов в колонку */
+        align-items: center; /* Выравнивание по центру */
+        padding: 20px; /* Изменение внутренних отступов */
+    }
+
+    .top-part-content{
+        width: 95%;
+        margin-top: 5px;
+    }
+
+    .footer-nav {
+        margin-bottom: 20px; /* Изменение отступа снизу */
+    }
+
+    .footer-nav a {
+        margin-right: 10px; /* Изменение отступов между ссылками */
+    }
+
+    .social-links {
+        margin-top: 20px; /* Изменение отступа сверху */
+    }
+
+    .social-links img {
+        width: 20px; /* Изменение размера иконок социальных сетей */
+        height: 20px;
+        margin-right: 5px; /* Изменение отступов между иконками */
+    }
+
+    .legal {
+        font-size: 10px; /* Изменение размера текста */
+    }
+}

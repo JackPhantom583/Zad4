@@ -232,11 +232,8 @@ body {
   .second-image {
     position: relative;
     width: 50%;
-  }
-  
-  .second-image img {
-    width: 100%;
     height: 500px;
+    background-color: #53354a;
   }
   
   .second-image-text {
@@ -313,7 +310,7 @@ body {
   .top-part {
     width: 100%;
     height: 255px;
-    background-image: url('background1.png');
+    background-color: #3a3e64;
   }
   
   .top-part-content{
@@ -357,7 +354,7 @@ body {
   .bottom-part {
     width: 100%;
     height: 95px;
-    background-image: url('background2.png');
+    background-color: #313454;
   }
 
   .bottom-part-content{
@@ -377,15 +374,7 @@ body {
     text-align: center;
     margin: 5px;
   }
+
   .white-color{
     color: #ffffff;
-  }
-  
-  .heart {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 14px;
-    color: #ff4444;
   }
