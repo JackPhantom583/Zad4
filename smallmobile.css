@@ -1,6 +1,4 @@
 @media (max-width: 580px) {
-    /* ... */
-  
     .logo {
         transform: scale(0.5);
         width: 90px;
@@ -18,24 +16,24 @@
     }
 
     .masthead {
-      padding: 100px 20px; /* Изменение отступов в секции masthead */
+        padding: 100px 20px;
     }
   
     .masthead-text-large {
-      font-size: 40px; /* Изменение размера текста */
-      margin-top: 50px; /* Изменение отступа сверху */
+        font-size: 40px; 
+        margin-top: 50px; 
     }
   
     .masthead-text-small {
-      font-size: 16px; /* Изменение размера текста */
-      margin-bottom: 50px; /* Изменение отступа снизу */
+        font-size: 16px; 
+        margin-bottom: 50px; 
     }
   
     .masthead-button {
-      width: 160px; /* Изменение ширины кнопки */
-      height: 40px; /* Изменение высоты кнопки */
-      font-size: 11px; /* Изменение размера текста кнопки */
-      padding: 8px 16px; /* Изменение внутренних отступов кнопки */
+        width: 160px; 
+        height: 40px; 
+        font-size: 11px; 
+        padding: 8px 16px; 
     }
 
     .team-member{
@@ -44,7 +42,7 @@
 
     .client-images img,
     .second-image{
-        height: 280px; /* Автоматический подбор высоты изображений */
+        height: 280px; 
     }
 
     .second-image-text h2{
@@ -63,6 +61,4 @@
     .text-block {
         margin: 0 auto;
     }
-  
-    /* Дополнительные стили для других секций, при необходимости */
-  }
+}

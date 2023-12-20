@@ -1,7 +1,6 @@
-/* Медиа-запросы для мобильных устройств */
 @media (max-width: 768px) {
     .header {
-      width: 95%; /* Изменение ширины header */
+        width: 95%;
     }
   
     .logo {
@@ -12,39 +11,39 @@
     }
     
     ul li {
-      margin-left: 15px; /* Изменение отступов в меню */
-      font-size: 10px;
+        margin-left: 15px; 
+        font-size: 10px;
     }
   
     .masthead {
-      padding: 70px; /* Изменение отступов */
+        padding: 70px;
     }
   
     .masthead-text-large {
-      font-size: 30px; /* Изменение размера текста */
-      margin-top: 50px; /* Изменение отступа сверху */
-      line-height: normal;
+        font-size: 30px; 
+        margin-top: 50px; 
+        line-height: normal;
     }
   
     .masthead-text-small {
-      font-size: 12px; /* Изменение размера текста */
-      margin-bottom: 50px; /* Изменение отступа снизу */
-      line-height: normal;
+        font-size: 12px;
+        margin-bottom: 50px; 
+        line-height: normal;
     }
   
     .masthead-button {
-      width: 160px; /* Изменение ширины кнопки */
-      height: 35px; /* Изменение высоты кнопки */
-      font-size: 11px; /* Изменение размера шрифта */
-      padding: 6px 12px; /* Изменение внутренних отступов */
+        width: 160px;
+        height: 35px; 
+        font-size: 11px; 
+        padding: 6px 12px;
     }
   
     .features {
-        width: 70%; /* Изменение ширины секции features */
+        width: 70%; 
     }
     
     .feature {
-        flex: 0 0 calc(50% - 40px); /* Изменение размеров feature */
+        flex: 0 0 calc(50% - 40px); 
         margin: 10px;
     }
 
@@ -57,37 +56,37 @@
     }
 
     .works {
-        width: 100%; /* Изменение ширины секции works */
-        margin-top: 60px; /* Изменение отступа сверху */
+        width: 100%; 
+        margin-top: 60px; 
     }
     
     .work-item {
-        width: 50%; /* Изменение ширины элемента с изображением */
-        margin: 0; /* Убираем внешние отступы */
+        width: 50%; 
+        margin: 0; 
     }
 
     .work-item img {
-        height: 272px; /* Автоматический подбор высоты изображения */
+        height: 272px; 
     }
 
     .project-name {
-        font-size: 12px; /* Изменение размера текста */
-        margin-bottom: 20px; /* Изменение отступа снизу */
+        font-size: 12px; 
+        margin-bottom: 20px; 
     }
 
     .design-type {
-        font-size: 12px; /* Изменение размера текста */
+        font-size: 12px; 
     }
 
     .team {
-        width: 100%; /* Изменение ширины секции team */
-        margin-top: 60px; /* Изменение отступа сверху */
+        width: 100%; 
+        margin-top: 60px; 
     }
 
     .team-member {
         width: 50%;
-        margin: 0; /* Убираем внешние отступы */
-        margin-bottom: 40px; /* Изменение отступа снизу */
+        margin: 0; 
+        margin-bottom: 40px; 
         text-align: center;
     }
 
@@ -101,18 +100,18 @@
     }
 
     .member-info h2 {
-        font-size: 18px; /* Изменение размера текста */
-        margin-bottom: 10px; /* Изменение отступа снизу */
+        font-size: 18px; 
+        margin-bottom: 10px; 
     }
 
     .member-info h3 {
-        font-size: 12px; /* Изменение размера текста */
-        margin-bottom: 15px; /* Изменение отступа снизу */
+        font-size: 12px;
+        margin-bottom: 15px; 
     }
 
     .member-info p {
-        font-size: 12px; /* Изменение размера текста */
-        margin-bottom: 20px; /* Изменение отступа снизу */
+        font-size: 12px; 
+        margin-bottom: 20px; 
     }
 
     .social-icons{
@@ -121,14 +120,14 @@
     }
 
     .social-icons img {
-        width: 24px; /* Изменение размера иконок социальных сетей */
+        width: 24px; 
         height: 24px;
-        margin-right: 2px; /* Изменение отступов между иконками */
+        margin-right: 2px; 
     }
 
     .clients {
-        flex-direction: column; /* Отображение клиентов в колонку */
-        align-items: center; /* Выравнивание по центру */
+        flex-direction: column; 
+        align-items: center;
     }
 
     .client-images{
@@ -138,36 +137,36 @@
 
     .client-images img,
     .second-image{
-        width: 100%; /* Растягивание изображений на всю ширину */
-        height: 380px; /* Автоматический подбор высоты изображений */
+        width: 100%; 
+        height: 380px; 
     }
 
     .second-image-text {
         width: 80%;
         top: 40px;
         left: 20px;
-        text-align: left; /* Выравнивание текста по центру */
+        text-align: left; 
     }
 
     .download {
-        padding: 30px 0; /* Изменение внутренних отступов */
-        margin-top: 30px; /* Изменение отступа сверху */
-        margin-bottom: 30px; /* Изменение отступа снизу */
+        padding: 30px 0; 
+        margin-top: 30px; 
+        margin-bottom: 30px; 
     }
 
     .main-text {
-        font-size: 24px; /* Изменение размера текста */
+        font-size: 24px; 
     }
 
     .secondary-text {
-        font-size: 11px; /* Изменение размера текста */
-        margin-top: 15px; /* Изменение отступа сверху */
+        font-size: 11px; 
+        margin-top: 15px; 
     }
 
     .footer {
-        flex-direction: column; /* Отображение элементов в колонку */
-        align-items: center; /* Выравнивание по центру */
-        padding: 20px; /* Изменение внутренних отступов */
+        flex-direction: column; 
+        align-items: center;
+        padding: 20px; 
     }
 
     .top-part-content{
@@ -176,24 +175,24 @@
     }
 
     .footer-nav {
-        margin-bottom: 20px; /* Изменение отступа снизу */
+        margin-bottom: 20px; 
     }
 
     .footer-nav a {
-        margin-right: 10px; /* Изменение отступов между ссылками */
+        margin-right: 10px; 
     }
 
     .social-links {
-        margin-top: 20px; /* Изменение отступа сверху */
+        margin-top: 20px; 
     }
 
     .social-links img {
-        width: 20px; /* Изменение размера иконок социальных сетей */
+        width: 20px; 
         height: 20px;
-        margin-right: 5px; /* Изменение отступов между иконками */
+        margin-right: 5px; 
     }
 
     .legal {
-        font-size: 10px; /* Изменение размера текста */
+        font-size: 10px; 
     }
 }

@@ -1,43 +1,41 @@
-
-    /* Медиа-запросы для планшетов */
 @media (max-width: 1350px) {
     .header {
-      width: 80%; /* Изменение ширины header */
+        width: 80%; 
     }
   
     ul li {
-      margin-left: 40px; /* Изменение отступов в меню */
+        margin-left: 40px; 
     }
   
     .masthead {
-      padding: 100px; /* Изменение отступов */
+        padding: 100px; 
     }
   
     .masthead-text-large {
-      font-size: 45px; /* Изменение размера текста */
-      margin-top: 70px; /* Изменение отступа сверху */
-      line-height: 0.8;
+        font-size: 45px;
+        margin-top: 70px; 
+        line-height: 0.8;
     }
   
     .masthead-text-small {
-      font-size: 18px; /* Изменение размера текста */
-      margin-bottom: 70px; /* Изменение отступа снизу */
-      line-height: normal;
+        font-size: 18px; 
+        margin-bottom: 70px; 
+        line-height: normal;
     }
   
     .masthead-button {
-      width: 180px; /* Изменение ширины кнопки */
-      height: 40px; /* Изменение высоты кнопки */
-      font-size: 12px; /* Изменение размера шрифта */
-      padding: 8px 16px; /* Изменение внутренних отступов */
+        width: 180px; 
+        height: 40px; 
+        font-size: 12px; 
+        padding: 8px 16px; 
     }
   
     .features {
-      width: 70%; /* Изменение ширины секции features */
+        width: 70%; 
     }
   
     .feature {
-      flex: 0 0 calc(50% - 40px); /* Изменение размеров feature */
-      margin: 10px;
+        flex: 0 0 calc(50% - 40px); 
+        margin: 10px;
     }
   }
